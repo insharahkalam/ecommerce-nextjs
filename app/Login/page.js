@@ -41,7 +41,7 @@ import Link from "next/link";
 
 
  <p className="text-center text-sm mt-4">
-          Don't Have An Account?{" "}
+          Dont Have An Account?{" "}
           <Link href="/Signup" className="text-blue-600 hover:underline">
             Signup
           </Link>

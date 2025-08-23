@@ -20,22 +20,6 @@ function Products() {
             <BlazerSlider />
             <BlazersProduct />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         </div>
     )
 }

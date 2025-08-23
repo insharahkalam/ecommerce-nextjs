@@ -4,7 +4,7 @@ function ProductTshirtSlider(){
 
          <div className="relative w-full h-[70vh] sm:h-[40vh] md:h-[40vh] lg:h-[50vh]">
                 <img
-                    src="./Images/croptype.png"
+                    src="./Images/productSlider.png"
                     alt="Slider"
                     className="w-full h-full object-cover"
                 />

@@ -10,7 +10,7 @@ function Section4(){
           <div className="col-12 col-md-6 col-lg-4">
             <div className="card border-0 rounded h-100">
               <img
-                src="https://demo-milano.myshopify.com/cdn/shop/files/fs_new_3.webp?v=1748226426&width=550"
+                src="./Images/img9.png"
                 alt="Product 1"
                 className="rounded-4 img-fluid w-100"
                 style={{ height: "250px", objectFit: "cover" }}
@@ -32,7 +32,7 @@ function Section4(){
           <div className="col-12 col-md-6 col-lg-4">
             <div className="card border-0 rounded h-100">
               <img
-                src="https://demo-milano.myshopify.com/cdn/shop/files/fs_new_4.webp?v=1748226426&width=550"
+                src="./Images/img10.png"
                 alt="Product 2"
                 className="rounded-4 img-fluid w-100"
                 style={{ height: "250px", objectFit: "cover" }}
@@ -54,7 +54,7 @@ function Section4(){
           <div className="col-12 col-md-6 col-lg-4">
             <div className="card border-0 rounded h-100">
               <img
-                src="https://demo-milano.myshopify.com/cdn/shop/files/fs_new_5.webp?v=1748226869&width=550"
+                src="./Images/img11.png"
                 alt="Product 3"
                 className="rounded-4 img-fluid w-100"
                 style={{ height: "250px", objectFit: "cover" }}

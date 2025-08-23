@@ -7,15 +7,16 @@ function Section3(){
         <h2 className="fw-bold">Best Selling</h2>
         <p className="lead">Unmatched design—superior performance and customer satisfaction in one.</p>
       </div>
-
    
       <div className="container my-5">
         <div className="row g-4">
+
+
           {/* Product 1 */}
                  <div className="col-12 col-sm-6 col-md-4 col-lg-3">
   <div className="card border-0 text-center h-100" style={{ maxWidth: "300px", margin: "0 auto" }}>
     <img
-      src="https://demo-milano.myshopify.com/cdn/shop/files/5_3_9014796c-913f-44f8-b335-f81f00f0941a.webp?v=1742481723&width=550"
+      src="./Images/img8.png"
       alt="High neck jumper"
       className="img-fluid rounded-2 mx-auto d-block"
       style={{ maxHeight: "350px", width: "100%", objectFit: "cover" }}
@@ -64,7 +65,7 @@ function Section3(){
               <div className="col-12 col-sm-6 col-md-4 col-lg-3">
   <div className="card border-0 text-center h-100" style={{ maxWidth: "300px", margin: "0 auto" }}>
     <img
-      src="https://demo-milano.myshopify.com/cdn/shop/files/preview_images/1c125896d5bd4a2cab0b37320373b210.thumbnail.0000000000.jpg?v=1752397862"
+      src="./Images/img6.png"
       alt="High neck jumper"
       className="img-fluid rounded-2 mx-auto d-block"
       style={{ maxHeight: "350px", width: "100%", objectFit: "cover" }}
@@ -111,7 +112,7 @@ function Section3(){
                 <div className="col-12 col-sm-6 col-md-4 col-lg-3">
   <div className="card border-0 text-center h-100" style={{ maxWidth: "300px", margin: "0 auto" }}>
     <img
-      src="https://demo-milano.myshopify.com/cdn/shop/files/4_4_45faf918-dd6f-4e39-be59-dc66e7becead.webp?v=1742481531&width=480"
+      src="./Images/img5.png"
       alt="High neck jumper"
       className="img-fluid rounded-2 mx-auto d-block"
       style={{ maxHeight: "350px", width: "100%", objectFit: "cover" }}
@@ -160,7 +161,7 @@ function Section3(){
      <div className="col-12 col-sm-6 col-md-4 col-lg-3">
   <div className="card border-0 text-center h-100" style={{ maxWidth: "300px", margin: "0 auto" }}>
     <img
-      src="https://demo-milano.myshopify.com/cdn/shop/files/13_7_5b152aaa-fad5-4d7d-bfbe-3f498bd4fe67.webp?v=1742479315&width=480"
+      src="./Images/img7.png"
       alt="High neck jumper"
       className="img-fluid rounded-2 mx-auto d-block"
       style={{ maxHeight: "350px", width: "100%", objectFit: "cover" }}

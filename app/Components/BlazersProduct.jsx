@@ -1,21 +1,21 @@
-function BlazersProduct(){
-    return(
-        <div>
+function BlazersProduct() {
+  return (
+    <div>
 
-  <div className="container my-4">
+      <div className="container my-4">
         <div className="row g-4">
           {/* Product 1 */}
 
           <div className="col-12 col-sm-6 col-md-4 col-lg-3">
-  <div className="card border-0 text-center h-100" style={{ maxWidth: "300px", margin: "0 auto" }}>
-    <img
-      src="https://demo-milano.myshopify.com/cdn/shop/files/5_3_9014796c-913f-44f8-b335-f81f00f0941a.webp?v=1742481723&width=550"
-      alt="High neck jumper"
-      className="img-fluid rounded-2 mx-auto d-block"
-      style={{ maxHeight: "350px", width: "100%", objectFit: "cover" }}
-    />
-    <h6 className="card-title mt-3 fs-6 fw-bold">High neck jumper</h6>
-       <div className="d-flex justify-content-center gap-1">
+            <div className="card border-0 text-center h-100" style={{ maxWidth: "300px", margin: "0 auto" }}>
+              <img
+                src="./Images/img31.png"
+                alt="High neck jumper"
+                className="img-fluid rounded-2 mx-auto d-block"
+                style={{ maxHeight: "350px", width: "100%", objectFit: "cover" }}
+              />
+              <h6 className="card-title mt-3 fs-6 fw-bold">High neck jumper</h6>
+              <div className="d-flex justify-content-center gap-1">
                 {[...Array(5)].map((_, i) => (
                   <span key={i}>
                     <svg
@@ -47,20 +47,20 @@ function BlazersProduct(){
                   style={{ width: 30, height: 30 }}
                 />
               </div>
-  </div>
-</div>
+            </div>
+          </div>
 
           {/* Product 2 */}
-                  <div className="col-12 col-sm-6 col-md-4 col-lg-3">
-  <div className="card border-0 text-center h-100" style={{ maxWidth: "300px", margin: "0 auto" }}>
-    <img
-      src="https://demo-milano.myshopify.com/cdn/shop/files/5_3_9014796c-913f-44f8-b335-f81f00f0941a.webp?v=1742481723&width=550"
-      alt="High neck jumper"
-      className="img-fluid rounded-2 mx-auto d-block"
-      style={{ maxHeight: "350px", width: "100%", objectFit: "cover" }}
-    />
-    <h6 className="card-title mt-3 fs-6 fw-bold">High neck jumper</h6>
-       <div className="d-flex justify-content-center gap-1">
+          <div className="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div className="card border-0 text-center h-100" style={{ maxWidth: "300px", margin: "0 auto" }}>
+              <img
+                src="./Images/img17.png"
+                alt="High neck jumper"
+                className="img-fluid rounded-2 mx-auto d-block"
+                style={{ maxHeight: "350px", width: "100%", objectFit: "cover" }}
+              />
+              <h6 className="card-title mt-3 fs-6 fw-bold">High neck jumper</h6>
+              <div className="d-flex justify-content-center gap-1">
                 {[...Array(5)].map((_, i) => (
                   <span key={i}>
                     <svg
@@ -92,21 +92,21 @@ function BlazersProduct(){
                   style={{ width: 30, height: 30 }}
                 />
               </div>
-  </div>
-</div>
+            </div>
+          </div>
 
           {/* Product 3 */}
 
-                 <div className="col-12 col-sm-6 col-md-4 col-lg-3">
-  <div className="card border-0 text-center h-100" style={{ maxWidth: "300px", margin: "0 auto" }}>
-    <img
-      src="https://demo-milano.myshopify.com/cdn/shop/files/5_3_9014796c-913f-44f8-b335-f81f00f0941a.webp?v=1742481723&width=550"
-      alt="High neck jumper"
-      className="img-fluid rounded-2 mx-auto d-block"
-      style={{ maxHeight: "350px", width: "100%", objectFit: "cover" }}
-    />
-    <h6 className="card-title mt-3 fs-6 fw-bold">High neck jumper</h6>
-       <div className="d-flex justify-content-center gap-1">
+          <div className="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div className="card border-0 text-center h-100" style={{ maxWidth: "300px", margin: "0 auto" }}>
+              <img
+                src="./Images/img32.png"
+                alt="High neck jumper"
+                className="img-fluid rounded-2 mx-auto d-block"
+                style={{ maxHeight: "350px", width: "100%", objectFit: "cover" }}
+              />
+              <h6 className="card-title mt-3 fs-6 fw-bold">High neck jumper</h6>
+              <div className="d-flex justify-content-center gap-1">
                 {[...Array(5)].map((_, i) => (
                   <span key={i}>
                     <svg
@@ -138,20 +138,20 @@ function BlazersProduct(){
                   style={{ width: 30, height: 30 }}
                 />
               </div>
-  </div>
-</div>
+            </div>
+          </div>
 
           {/* Product 4 */}
-                  <div className="col-12 col-sm-6 col-md-4 col-lg-3">
-  <div className="card border-0 text-center h-100" style={{ maxWidth: "300px", margin: "0 auto" }}>
-    <img
-      src="https://demo-milano.myshopify.com/cdn/shop/files/5_3_9014796c-913f-44f8-b335-f81f00f0941a.webp?v=1742481723&width=550"
-      alt="High neck jumper"
-      className="img-fluid rounded-2 mx-auto d-block"
-      style={{ maxHeight: "350px", width: "100%", objectFit: "cover" }}
-    />
-    <h6 className="card-title mt-3 fs-6 fw-bold">High neck jumper</h6>
-       <div className="d-flex justify-content-center gap-1">
+          <div className="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div className="card border-0 text-center h-100" style={{ maxWidth: "300px", margin: "0 auto" }}>
+              <img
+                src="./Images/img6.png"
+                alt="High neck jumper"
+                className="img-fluid rounded-2 mx-auto d-block"
+                style={{ maxHeight: "350px", width: "100%", objectFit: "cover" }}
+              />
+              <h6 className="card-title mt-3 fs-6 fw-bold">High neck jumper</h6>
+              <div className="d-flex justify-content-center gap-1">
                 {[...Array(5)].map((_, i) => (
                   <span key={i}>
                     <svg
@@ -183,27 +183,27 @@ function BlazersProduct(){
                   style={{ width: 30, height: 30 }}
                 />
               </div>
-  </div>
-</div>
+            </div>
+          </div>
 
 
         </div>
       </div>
 
-<div className="container my-4">
+      <div className="container my-4">
         <div className="row g-4">
           {/* Product 1 */}
 
           <div className="col-12 col-sm-6 col-md-4 col-lg-3">
-  <div className="card border-0 text-center h-100" style={{ maxWidth: "300px", margin: "0 auto" }}>
-    <img
-      src="https://demo-milano.myshopify.com/cdn/shop/files/5_3_9014796c-913f-44f8-b335-f81f00f0941a.webp?v=1742481723&width=550"
-      alt="High neck jumper"
-      className="img-fluid rounded-2 mx-auto d-block"
-      style={{ maxHeight: "350px", width: "100%", objectFit: "cover" }}
-    />
-    <h6 className="card-title mt-3 fs-6 fw-bold">High neck jumper</h6>
-       <div className="d-flex justify-content-center gap-1">
+            <div className="card border-0 text-center h-100" style={{ maxWidth: "300px", margin: "0 auto" }}>
+              <img
+                src="./Images/img1.png"
+                alt="High neck jumper"
+                className="img-fluid rounded-2 mx-auto d-block"
+                style={{ maxHeight: "350px", width: "100%", objectFit: "cover" }}
+              />
+              <h6 className="card-title mt-3 fs-6 fw-bold">High neck jumper</h6>
+              <div className="d-flex justify-content-center gap-1">
                 {[...Array(5)].map((_, i) => (
                   <span key={i}>
                     <svg
@@ -235,20 +235,20 @@ function BlazersProduct(){
                   style={{ width: 30, height: 30 }}
                 />
               </div>
-  </div>
-</div>
+            </div>
+          </div>
 
           {/* Product 2 */}
-                  <div className="col-12 col-sm-6 col-md-4 col-lg-3">
-  <div className="card border-0 text-center h-100" style={{ maxWidth: "300px", margin: "0 auto" }}>
-    <img
-      src="https://demo-milano.myshopify.com/cdn/shop/files/5_3_9014796c-913f-44f8-b335-f81f00f0941a.webp?v=1742481723&width=550"
-      alt="High neck jumper"
-      className="img-fluid rounded-2 mx-auto d-block"
-      style={{ maxHeight: "350px", width: "100%", objectFit: "cover" }}
-    />
-    <h6 className="card-title mt-3 fs-6 fw-bold">High neck jumper</h6>
-       <div className="d-flex justify-content-center gap-1">
+          <div className="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div className="card border-0 text-center h-100" style={{ maxWidth: "300px", margin: "0 auto" }}>
+              <img
+                src="./Images/img29.png"
+                alt="High neck jumper"
+                className="img-fluid rounded-2 mx-auto d-block"
+                style={{ maxHeight: "350px", width: "100%", objectFit: "cover" }}
+              />
+              <h6 className="card-title mt-3 fs-6 fw-bold">High neck jumper</h6>
+              <div className="d-flex justify-content-center gap-1">
                 {[...Array(5)].map((_, i) => (
                   <span key={i}>
                     <svg
@@ -280,21 +280,21 @@ function BlazersProduct(){
                   style={{ width: 30, height: 30 }}
                 />
               </div>
-  </div>
-</div>
+            </div>
+          </div>
 
           {/* Product 3 */}
 
-                 <div className="col-12 col-sm-6 col-md-4 col-lg-3">
-  <div className="card border-0 text-center h-100" style={{ maxWidth: "300px", margin: "0 auto" }}>
-    <img
-      src="https://demo-milano.myshopify.com/cdn/shop/files/5_3_9014796c-913f-44f8-b335-f81f00f0941a.webp?v=1742481723&width=550"
-      alt="High neck jumper"
-      className="img-fluid rounded-2 mx-auto d-block"
-      style={{ maxHeight: "350px", width: "100%", objectFit: "cover" }}
-    />
-    <h6 className="card-title mt-3 fs-6 fw-bold">High neck jumper</h6>
-       <div className="d-flex justify-content-center gap-1">
+          <div className="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div className="card border-0 text-center h-100" style={{ maxWidth: "300px", margin: "0 auto" }}>
+              <img
+                src="./Images/img7.png"
+                alt="High neck jumper"
+                className="img-fluid rounded-2 mx-auto d-block"
+                style={{ maxHeight: "350px", width: "100%", objectFit: "cover" }}
+              />
+              <h6 className="card-title mt-3 fs-6 fw-bold">High neck jumper</h6>
+              <div className="d-flex justify-content-center gap-1">
                 {[...Array(5)].map((_, i) => (
                   <span key={i}>
                     <svg
@@ -326,20 +326,20 @@ function BlazersProduct(){
                   style={{ width: 30, height: 30 }}
                 />
               </div>
-  </div>
-</div>
+            </div>
+          </div>
 
           {/* Product 4 */}
-                  <div className="col-12 col-sm-6 col-md-4 col-lg-3">
-  <div className="card border-0 text-center h-100" style={{ maxWidth: "300px", margin: "0 auto" }}>
-    <img
-      src="https://demo-milano.myshopify.com/cdn/shop/files/5_3_9014796c-913f-44f8-b335-f81f00f0941a.webp?v=1742481723&width=550"
-      alt="High neck jumper"
-      className="img-fluid rounded-2 mx-auto d-block"
-      style={{ maxHeight: "350px", width: "100%", objectFit: "cover" }}
-    />
-    <h6 className="card-title mt-3 fs-6 fw-bold">High neck jumper</h6>
-       <div className="d-flex justify-content-center gap-1">
+          <div className="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div className="card border-0 text-center h-100" style={{ maxWidth: "300px", margin: "0 auto" }}>
+              <img
+                src="./Images/img30.png"
+                alt="High neck jumper"
+                className="img-fluid rounded-2 mx-auto d-block"
+                style={{ maxHeight: "350px", width: "100%", objectFit: "cover" }}
+              />
+              <h6 className="card-title mt-3 fs-6 fw-bold">High neck jumper</h6>
+              <div className="d-flex justify-content-center gap-1">
                 {[...Array(5)].map((_, i) => (
                   <span key={i}>
                     <svg
@@ -371,15 +371,15 @@ function BlazersProduct(){
                   style={{ width: 30, height: 30 }}
                 />
               </div>
-  </div>
-</div>
+            </div>
+          </div>
 
 
         </div>
       </div>
 
-        </div>
-    )
+    </div>
+  )
 }
 
 export default BlazersProduct

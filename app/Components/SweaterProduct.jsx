@@ -9,7 +9,7 @@ function SweaterProduct(){
           <div className="col-12 col-sm-6 col-md-4 col-lg-3">
   <div className="card border-0 text-center h-100" style={{ maxWidth: "300px", margin: "0 auto" }}>
     <img
-      src="https://demo-milano.myshopify.com/cdn/shop/files/5_3_9014796c-913f-44f8-b335-f81f00f0941a.webp?v=1742481723&width=550"
+      src="./Images/img3.png"
       alt="High neck jumper"
       className="img-fluid rounded-2 mx-auto d-block"
       style={{ maxHeight: "350px", width: "100%", objectFit: "cover" }}
@@ -54,7 +54,7 @@ function SweaterProduct(){
                   <div className="col-12 col-sm-6 col-md-4 col-lg-3">
   <div className="card border-0 text-center h-100" style={{ maxWidth: "300px", margin: "0 auto" }}>
     <img
-      src="https://demo-milano.myshopify.com/cdn/shop/files/5_3_9014796c-913f-44f8-b335-f81f00f0941a.webp?v=1742481723&width=550"
+      src="./Images/img22.png"
       alt="High neck jumper"
       className="img-fluid rounded-2 mx-auto d-block"
       style={{ maxHeight: "350px", width: "100%", objectFit: "cover" }}
@@ -100,7 +100,7 @@ function SweaterProduct(){
                  <div className="col-12 col-sm-6 col-md-4 col-lg-3">
   <div className="card border-0 text-center h-100" style={{ maxWidth: "300px", margin: "0 auto" }}>
     <img
-      src="https://demo-milano.myshopify.com/cdn/shop/files/5_3_9014796c-913f-44f8-b335-f81f00f0941a.webp?v=1742481723&width=550"
+      src="./Images/img8.png"
       alt="High neck jumper"
       className="img-fluid rounded-2 mx-auto d-block"
       style={{ maxHeight: "350px", width: "100%", objectFit: "cover" }}
@@ -145,7 +145,7 @@ function SweaterProduct(){
                   <div className="col-12 col-sm-6 col-md-4 col-lg-3">
   <div className="card border-0 text-center h-100" style={{ maxWidth: "300px", margin: "0 auto" }}>
     <img
-      src="https://demo-milano.myshopify.com/cdn/shop/files/5_3_9014796c-913f-44f8-b335-f81f00f0941a.webp?v=1742481723&width=550"
+      src="./Images/img12.png"
       alt="High neck jumper"
       className="img-fluid rounded-2 mx-auto d-block"
       style={{ maxHeight: "350px", width: "100%", objectFit: "cover" }}
@@ -197,7 +197,7 @@ function SweaterProduct(){
           <div className="col-12 col-sm-6 col-md-4 col-lg-3">
   <div className="card border-0 text-center h-100" style={{ maxWidth: "300px", margin: "0 auto" }}>
     <img
-      src="https://demo-milano.myshopify.com/cdn/shop/files/5_3_9014796c-913f-44f8-b335-f81f00f0941a.webp?v=1742481723&width=550"
+      src="./Images/img21.png"
       alt="High neck jumper"
       className="img-fluid rounded-2 mx-auto d-block"
       style={{ maxHeight: "350px", width: "100%", objectFit: "cover" }}
@@ -242,7 +242,7 @@ function SweaterProduct(){
                   <div className="col-12 col-sm-6 col-md-4 col-lg-3">
   <div className="card border-0 text-center h-100" style={{ maxWidth: "300px", margin: "0 auto" }}>
     <img
-      src="https://demo-milano.myshopify.com/cdn/shop/files/5_3_9014796c-913f-44f8-b335-f81f00f0941a.webp?v=1742481723&width=550"
+      src="./Images/img20.png"
       alt="High neck jumper"
       className="img-fluid rounded-2 mx-auto d-block"
       style={{ maxHeight: "350px", width: "100%", objectFit: "cover" }}
@@ -288,7 +288,7 @@ function SweaterProduct(){
                  <div className="col-12 col-sm-6 col-md-4 col-lg-3">
   <div className="card border-0 text-center h-100" style={{ maxWidth: "300px", margin: "0 auto" }}>
     <img
-      src="https://demo-milano.myshopify.com/cdn/shop/files/5_3_9014796c-913f-44f8-b335-f81f00f0941a.webp?v=1742481723&width=550"
+      src="./Images/img23.png"
       alt="High neck jumper"
       className="img-fluid rounded-2 mx-auto d-block"
       style={{ maxHeight: "350px", width: "100%", objectFit: "cover" }}
@@ -333,7 +333,7 @@ function SweaterProduct(){
                   <div className="col-12 col-sm-6 col-md-4 col-lg-3">
   <div className="card border-0 text-center h-100" style={{ maxWidth: "300px", margin: "0 auto" }}>
     <img
-      src="https://demo-milano.myshopify.com/cdn/shop/files/5_3_9014796c-913f-44f8-b335-f81f00f0941a.webp?v=1742481723&width=550"
+      src="./Images/img6.png"
       alt="High neck jumper"
       className="img-fluid rounded-2 mx-auto d-block"
       style={{ maxHeight: "350px", width: "100%", objectFit: "cover" }}

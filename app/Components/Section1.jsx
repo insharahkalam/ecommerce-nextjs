@@ -1,8 +1,9 @@
-function Section1(){
-    return(
-        <div>
+import Link from "next/link";
+function Section1() {
+  return (
+    <div>
 
-  {/* Section 1 */}
+      {/* Section 1 */}
       <div className="container text-center my-3">
         <h1 className="fw-bold">Shop By Category</h1>
         <p className="lead">Express your style with our standout collection—fashion meets sophistication.</p>
@@ -14,49 +15,60 @@ function Section1(){
 
           {/* Card 1 */}
           <div className="text-center">
-            <img
-              src="https://demo-milano.myshopify.com/cdn/shop/files/main_clt5.webp?v=1745943972&width=480"
-              alt="Product 1"
-              className="mx-auto rounded-2xl w-full max-w-[250px]"
-            />
+
+            <Link className="text-decoration-none text-black" href="./Products">
+              <img
+                src="./Images/img4.png"
+                alt="Product 1"
+                className="mx-auto rounded-2xl w-full max-w-[250px]"
+              />
+            </Link>
+
+
             <h6 className="mt-3 text-lg font-bold">T-shirt</h6>
           </div>
 
           {/* Card 2 */}
           <div className="text-center">
-            <img
-              src="./Images/product2.png"
-              alt="Product 2"
-              className="mx-auto rounded-2xl w-full max-w-[250px]"
-            />
+            <Link className="text-decoration-none text-black" href="./Products">
+              <img
+                src="./Images/img1.png"
+                alt="Product 1"
+                className="mx-auto rounded-2xl w-full max-w-[250px]"
+              />
+            </Link>
             <h6 className="mt-3 text-lg font-bold">Blazers</h6>
           </div>
 
           {/* Card 3 */}
           <div className="text-center">
-            <img
-              src="https://demo-milano.myshopify.com/cdn/shop/files/main_clt1.webp?v=1745943972&width=480"
-              alt="Product 3"
-              className="mx-auto rounded-2xl w-full max-w-[250px]"
-            />
+             <Link className="text-decoration-none text-black" href="./Products">
+              <img
+                src="./Images/img2.png"
+                alt="Product 1"
+                className="mx-auto rounded-2xl w-full max-w-[250px]"
+              />
+            </Link>
             <h6 className="mt-3 text-lg font-bold">Crop-top</h6>
           </div>
 
           {/* Card 4 */}
           <div className="text-center">
-            <img
-              src="https://demo-milano.myshopify.com/cdn/shop/files/main_clt4.webp?v=1745943972&width=480"
-              alt="Product 4"
-              className="mx-auto rounded-2xl w-full max-w-[250px]"
-            />
+           <Link className="text-decoration-none text-black" href="./Products">
+              <img
+                src="./Images/img3.png"
+                alt="Product 1"
+                className="mx-auto rounded-2xl w-full max-w-[250px]"
+              />
+            </Link>
             <h6 className="mt-3 text-lg font-bold">Sweaters</h6>
           </div>
 
         </div>
       </div>
 
-        </div>
-    )
+    </div>
+  )
 }
 
 export default Section1

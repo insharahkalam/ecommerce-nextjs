@@ -1,4 +1,5 @@
 import Link from "next/link";
+import OneCardUseAnywhere from "./OneCardUseAnywhere";
 function Section1() {
   return (
     <div>
@@ -10,64 +11,26 @@ function Section1() {
       </div>
 
       {/* Product Cards */}
+
       <div className="container mx-auto my-10 px-4">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
 
           {/* Card 1 */}
-          <div className="text-center">
-
-            <Link className="text-decoration-none text-black" href="./Products">
-              <img
-                src="./Images/img4.png"
-                alt="Product 1"
-                className="mx-auto rounded-2xl w-full max-w-[250px]"
-              />
-            </Link>
-
-
-            <h6 className="mt-3 text-lg font-bold">T-shirt</h6>
-          </div>
+          <OneCardUseAnywhere img="./Images/img4.png" Cloth="T-Shirt" />
 
           {/* Card 2 */}
-          <div className="text-center">
-            <Link className="text-decoration-none text-black" href="./Products">
-              <img
-                src="./Images/img1.png"
-                alt="Product 1"
-                className="mx-auto rounded-2xl w-full max-w-[250px]"
-              />
-            </Link>
-            <h6 className="mt-3 text-lg font-bold">Blazers</h6>
-          </div>
+          <OneCardUseAnywhere img="./Images/img1.png" Cloth="Blazers" />
 
           {/* Card 3 */}
-          <div className="text-center">
-             <Link className="text-decoration-none text-black" href="./Products">
-              <img
-                src="./Images/img2.png"
-                alt="Product 1"
-                className="mx-auto rounded-2xl w-full max-w-[250px]"
-              />
-            </Link>
-            <h6 className="mt-3 text-lg font-bold">Crop-top</h6>
-          </div>
+          <OneCardUseAnywhere img="./Images/img2.png" Cloth="Crop-top" />
 
           {/* Card 4 */}
-          <div className="text-center">
-           <Link className="text-decoration-none text-black" href="./Products">
-              <img
-                src="./Images/img3.png"
-                alt="Product 1"
-                className="mx-auto rounded-2xl w-full max-w-[250px]"
-              />
-            </Link>
-            <h6 className="mt-3 text-lg font-bold">Sweaters</h6>
-          </div>
+          <OneCardUseAnywhere img="./Images/img3.png" Cloth="Sweaters" />
 
         </div>
       </div>
-
     </div>
+
   )
 }
 

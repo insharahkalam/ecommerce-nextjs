@@ -1,5 +1,6 @@
 import Link from "next/link";
 import OneCardUseAnywhere from "./OneCardUseAnywhere";
+import SecondCard from "./SecondCard";
 function Section1() {
   return (
     <div>
@@ -16,16 +17,16 @@ function Section1() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
 
           {/* Card 1 */}
-          <OneCardUseAnywhere img="./Images/img4.png" Cloth="T-Shirt" />
+          <SecondCard img="./Images/img4.png" Cloth="T-Shirt" />
 
           {/* Card 2 */}
-          <OneCardUseAnywhere img="./Images/img1.png" Cloth="Blazers" />
+          <SecondCard img="./Images/img1.png" Cloth="Blazers" />
 
           {/* Card 3 */}
-          <OneCardUseAnywhere img="./Images/img2.png" Cloth="Crop-top" />
+          <SecondCard img="./Images/img2.png" Cloth="Crop-top" />
 
           {/* Card 4 */}
-          <OneCardUseAnywhere img="./Images/img3.png" Cloth="Sweaters" />
+          <SecondCard img="./Images/img3.png" Cloth="Sweaters" />
 
         </div>
       </div>

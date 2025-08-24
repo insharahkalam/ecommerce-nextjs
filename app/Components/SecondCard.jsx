@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-function OneCardUseAnywhere(props) {
+function SecondCard(props) {
     return (
         <div>
             {/* Card 1 */}
@@ -11,17 +11,17 @@ function OneCardUseAnywhere(props) {
                         src={props.img}
                         alt="Product 1"
                         className="mx-auto rounded-2xl w-full max-w-[250px]"
-                    />
+                        />
                 </Link>
                 <h6 className="mt-3 fs-6 fw-bold">{props.Cloth}</h6>
                 <div>{props.stars}</div>
                 <h6 className="fs-6 fw-bold">{props.price}</h6>
                 <div>{props.colorOption}</div>
-                <button className="border-1 px-5 py-2 rounded-3 fw-bold fs-6 mt-2">{props.btn}</button>
+                       
             </div>
         </div>
 
     )
 }
 
-export default OneCardUseAnywhere
+export default SecondCard

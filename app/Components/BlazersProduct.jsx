@@ -1,192 +1,43 @@
+import OneCardUseAnywhere from "./OneCardUseAnywhere"
+import OptionColor from "./OptionColor"
+import Stars from "./Stars"
+
 function BlazersProduct() {
   return (
     <div>
+
+
 
       <div className="container my-4">
         <div className="row g-4">
           {/* Product 1 */}
 
           <div className="col-12 col-sm-6 col-md-4 col-lg-3">
-            <div className="card border-0 text-center h-100" style={{ maxWidth: "300px", margin: "0 auto" }}>
-              <img
-                src="./Images/img31.png"
-                alt="High neck jumper"
-                className="img-fluid rounded-2 mx-auto d-block"
-                style={{ maxHeight: "350px", width: "100%", objectFit: "cover" }}
-              />
-              <h6 className="card-title mt-3 fs-6 fw-bold">High neck jumper</h6>
-              <div className="d-flex justify-content-center gap-1">
-                {[...Array(5)].map((_, i) => (
-                  <span key={i}>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      height="35px"
-                      width="35px"
-                      viewBox="0 -960 960 960"
-                      fill="#F19E39"
-                    >
-                      <path d="m384-334 96-74 96 74-36-122 90-64H518l-38-124-38 124H330l90 64-36 122Z" />
-                    </svg>
-                  </span>
-                ))}
-              </div>
-
-              <p className="fw-bold mt-2">$225.00</p>
-
-              <div className="d-flex justify-content-center gap-2 mt-0">
-                <img
-                  src="https://demo-milano.myshopify.com/cdn/shop/files/13_1_5644aee9-7e1a-4296-baac-e448257d812c.webp?v=1742479315&width=50"
-                  alt="color1"
-                  className="rounded-circle border"
-                  style={{ width: 30, height: 30 }}
-                />
-                <img
-                  src="https://demo-milano.myshopify.com/cdn/shop/files/13_5_9c0bcbd4-c27f-4289-be76-af9c5c06aedf.webp?v=1742479315&width=50"
-                  alt="color2"
-                  className="rounded-circle border"
-                  style={{ width: 30, height: 30 }}
-                />
-              </div>
-            </div>
+            <OneCardUseAnywhere img="./Images/img31.png" Cloth="High neck jumper" price="1200.00" stars={<Stars />}
+              colorOption={<OptionColor />} btn="Add To Cart"/>
           </div>
 
           {/* Product 2 */}
           <div className="col-12 col-sm-6 col-md-4 col-lg-3">
-            <div className="card border-0 text-center h-100" style={{ maxWidth: "300px", margin: "0 auto" }}>
-              <img
-                src="./Images/img17.png"
-                alt="High neck jumper"
-                className="img-fluid rounded-2 mx-auto d-block"
-                style={{ maxHeight: "350px", width: "100%", objectFit: "cover" }}
-              />
-              <h6 className="card-title mt-3 fs-6 fw-bold">High neck jumper</h6>
-              <div className="d-flex justify-content-center gap-1">
-                {[...Array(5)].map((_, i) => (
-                  <span key={i}>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      height="35px"
-                      width="35px"
-                      viewBox="0 -960 960 960"
-                      fill="#F19E39"
-                    >
-                      <path d="m384-334 96-74 96 74-36-122 90-64H518l-38-124-38 124H330l90 64-36 122Z" />
-                    </svg>
-                  </span>
-                ))}
-              </div>
 
-              <p className="fw-bold mt-2">$225.00</p>
-
-              <div className="d-flex justify-content-center gap-2 mt-0">
-                <img
-                  src="https://demo-milano.myshopify.com/cdn/shop/files/13_1_5644aee9-7e1a-4296-baac-e448257d812c.webp?v=1742479315&width=50"
-                  alt="color1"
-                  className="rounded-circle border"
-                  style={{ width: 30, height: 30 }}
-                />
-                <img
-                  src="https://demo-milano.myshopify.com/cdn/shop/files/13_5_9c0bcbd4-c27f-4289-be76-af9c5c06aedf.webp?v=1742479315&width=50"
-                  alt="color2"
-                  className="rounded-circle border"
-                  style={{ width: 30, height: 30 }}
-                />
-              </div>
-            </div>
+            <OneCardUseAnywhere img="./Images/img17.png" Cloth="High neck jumper" price="1200.00" stars={<Stars />}
+              colorOption={<OptionColor />} btn="Add To Cart"/>
           </div>
 
           {/* Product 3 */}
 
           <div className="col-12 col-sm-6 col-md-4 col-lg-3">
-            <div className="card border-0 text-center h-100" style={{ maxWidth: "300px", margin: "0 auto" }}>
-              <img
-                src="./Images/img32.png"
-                alt="High neck jumper"
-                className="img-fluid rounded-2 mx-auto d-block"
-                style={{ maxHeight: "350px", width: "100%", objectFit: "cover" }}
-              />
-              <h6 className="card-title mt-3 fs-6 fw-bold">High neck jumper</h6>
-              <div className="d-flex justify-content-center gap-1">
-                {[...Array(5)].map((_, i) => (
-                  <span key={i}>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      height="35px"
-                      width="35px"
-                      viewBox="0 -960 960 960"
-                      fill="#F19E39"
-                    >
-                      <path d="m384-334 96-74 96 74-36-122 90-64H518l-38-124-38 124H330l90 64-36 122Z" />
-                    </svg>
-                  </span>
-                ))}
-              </div>
 
-              <p className="fw-bold mt-2">$225.00</p>
-
-              <div className="d-flex justify-content-center gap-2 mt-0">
-                <img
-                  src="https://demo-milano.myshopify.com/cdn/shop/files/13_1_5644aee9-7e1a-4296-baac-e448257d812c.webp?v=1742479315&width=50"
-                  alt="color1"
-                  className="rounded-circle border"
-                  style={{ width: 30, height: 30 }}
-                />
-                <img
-                  src="https://demo-milano.myshopify.com/cdn/shop/files/13_5_9c0bcbd4-c27f-4289-be76-af9c5c06aedf.webp?v=1742479315&width=50"
-                  alt="color2"
-                  className="rounded-circle border"
-                  style={{ width: 30, height: 30 }}
-                />
-              </div>
-            </div>
+            <OneCardUseAnywhere img="./Images/img32.png" Cloth="High neck jumper" price="1200.00" stars={<Stars />}
+              colorOption={<OptionColor />} btn="Add To Cart"/>
           </div>
 
           {/* Product 4 */}
           <div className="col-12 col-sm-6 col-md-4 col-lg-3">
-            <div className="card border-0 text-center h-100" style={{ maxWidth: "300px", margin: "0 auto" }}>
-              <img
-                src="./Images/img6.png"
-                alt="High neck jumper"
-                className="img-fluid rounded-2 mx-auto d-block"
-                style={{ maxHeight: "350px", width: "100%", objectFit: "cover" }}
-              />
-              <h6 className="card-title mt-3 fs-6 fw-bold">High neck jumper</h6>
-              <div className="d-flex justify-content-center gap-1">
-                {[...Array(5)].map((_, i) => (
-                  <span key={i}>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      height="35px"
-                      width="35px"
-                      viewBox="0 -960 960 960"
-                      fill="#F19E39"
-                    >
-                      <path d="m384-334 96-74 96 74-36-122 90-64H518l-38-124-38 124H330l90 64-36 122Z" />
-                    </svg>
-                  </span>
-                ))}
-              </div>
 
-              <p className="fw-bold mt-2">$225.00</p>
-
-              <div className="d-flex justify-content-center gap-2 mt-0">
-                <img
-                  src="https://demo-milano.myshopify.com/cdn/shop/files/13_1_5644aee9-7e1a-4296-baac-e448257d812c.webp?v=1742479315&width=50"
-                  alt="color1"
-                  className="rounded-circle border"
-                  style={{ width: 30, height: 30 }}
-                />
-                <img
-                  src="https://demo-milano.myshopify.com/cdn/shop/files/13_5_9c0bcbd4-c27f-4289-be76-af9c5c06aedf.webp?v=1742479315&width=50"
-                  alt="color2"
-                  className="rounded-circle border"
-                  style={{ width: 30, height: 30 }}
-                />
-              </div>
-            </div>
+            <OneCardUseAnywhere img="./Images/img6.png" Cloth="High neck jumper" price="1200.00" stars={<Stars />}
+              colorOption={<OptionColor />} btn="Add To Cart"/>
           </div>
-
-
         </div>
       </div>
 
@@ -195,183 +46,31 @@ function BlazersProduct() {
           {/* Product 1 */}
 
           <div className="col-12 col-sm-6 col-md-4 col-lg-3">
-            <div className="card border-0 text-center h-100" style={{ maxWidth: "300px", margin: "0 auto" }}>
-              <img
-                src="./Images/img1.png"
-                alt="High neck jumper"
-                className="img-fluid rounded-2 mx-auto d-block"
-                style={{ maxHeight: "350px", width: "100%", objectFit: "cover" }}
-              />
-              <h6 className="card-title mt-3 fs-6 fw-bold">High neck jumper</h6>
-              <div className="d-flex justify-content-center gap-1">
-                {[...Array(5)].map((_, i) => (
-                  <span key={i}>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      height="35px"
-                      width="35px"
-                      viewBox="0 -960 960 960"
-                      fill="#F19E39"
-                    >
-                      <path d="m384-334 96-74 96 74-36-122 90-64H518l-38-124-38 124H330l90 64-36 122Z" />
-                    </svg>
-                  </span>
-                ))}
-              </div>
 
-              <p className="fw-bold mt-2">$225.00</p>
-
-              <div className="d-flex justify-content-center gap-2 mt-0">
-                <img
-                  src="https://demo-milano.myshopify.com/cdn/shop/files/13_1_5644aee9-7e1a-4296-baac-e448257d812c.webp?v=1742479315&width=50"
-                  alt="color1"
-                  className="rounded-circle border"
-                  style={{ width: 30, height: 30 }}
-                />
-                <img
-                  src="https://demo-milano.myshopify.com/cdn/shop/files/13_5_9c0bcbd4-c27f-4289-be76-af9c5c06aedf.webp?v=1742479315&width=50"
-                  alt="color2"
-                  className="rounded-circle border"
-                  style={{ width: 30, height: 30 }}
-                />
-              </div>
-            </div>
+            <OneCardUseAnywhere img="./Images/img8.png" Cloth="High neck jumper" price="1200.00" stars={<Stars />}
+              colorOption={<OptionColor />} btn="Add To Cart"/>
           </div>
 
           {/* Product 2 */}
           <div className="col-12 col-sm-6 col-md-4 col-lg-3">
-            <div className="card border-0 text-center h-100" style={{ maxWidth: "300px", margin: "0 auto" }}>
-              <img
-                src="./Images/img29.png"
-                alt="High neck jumper"
-                className="img-fluid rounded-2 mx-auto d-block"
-                style={{ maxHeight: "350px", width: "100%", objectFit: "cover" }}
-              />
-              <h6 className="card-title mt-3 fs-6 fw-bold">High neck jumper</h6>
-              <div className="d-flex justify-content-center gap-1">
-                {[...Array(5)].map((_, i) => (
-                  <span key={i}>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      height="35px"
-                      width="35px"
-                      viewBox="0 -960 960 960"
-                      fill="#F19E39"
-                    >
-                      <path d="m384-334 96-74 96 74-36-122 90-64H518l-38-124-38 124H330l90 64-36 122Z" />
-                    </svg>
-                  </span>
-                ))}
-              </div>
 
-              <p className="fw-bold mt-2">$225.00</p>
-
-              <div className="d-flex justify-content-center gap-2 mt-0">
-                <img
-                  src="https://demo-milano.myshopify.com/cdn/shop/files/13_1_5644aee9-7e1a-4296-baac-e448257d812c.webp?v=1742479315&width=50"
-                  alt="color1"
-                  className="rounded-circle border"
-                  style={{ width: 30, height: 30 }}
-                />
-                <img
-                  src="https://demo-milano.myshopify.com/cdn/shop/files/13_5_9c0bcbd4-c27f-4289-be76-af9c5c06aedf.webp?v=1742479315&width=50"
-                  alt="color2"
-                  className="rounded-circle border"
-                  style={{ width: 30, height: 30 }}
-                />
-              </div>
-            </div>
+            <OneCardUseAnywhere img="./Images/img29.png" Cloth="High neck jumper" price="1200.00" stars={<Stars />}
+              colorOption={<OptionColor />} btn="Add To Cart"/>
           </div>
 
           {/* Product 3 */}
 
           <div className="col-12 col-sm-6 col-md-4 col-lg-3">
-            <div className="card border-0 text-center h-100" style={{ maxWidth: "300px", margin: "0 auto" }}>
-              <img
-                src="./Images/img7.png"
-                alt="High neck jumper"
-                className="img-fluid rounded-2 mx-auto d-block"
-                style={{ maxHeight: "350px", width: "100%", objectFit: "cover" }}
-              />
-              <h6 className="card-title mt-3 fs-6 fw-bold">High neck jumper</h6>
-              <div className="d-flex justify-content-center gap-1">
-                {[...Array(5)].map((_, i) => (
-                  <span key={i}>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      height="35px"
-                      width="35px"
-                      viewBox="0 -960 960 960"
-                      fill="#F19E39"
-                    >
-                      <path d="m384-334 96-74 96 74-36-122 90-64H518l-38-124-38 124H330l90 64-36 122Z" />
-                    </svg>
-                  </span>
-                ))}
-              </div>
 
-              <p className="fw-bold mt-2">$225.00</p>
-
-              <div className="d-flex justify-content-center gap-2 mt-0">
-                <img
-                  src="https://demo-milano.myshopify.com/cdn/shop/files/13_1_5644aee9-7e1a-4296-baac-e448257d812c.webp?v=1742479315&width=50"
-                  alt="color1"
-                  className="rounded-circle border"
-                  style={{ width: 30, height: 30 }}
-                />
-                <img
-                  src="https://demo-milano.myshopify.com/cdn/shop/files/13_5_9c0bcbd4-c27f-4289-be76-af9c5c06aedf.webp?v=1742479315&width=50"
-                  alt="color2"
-                  className="rounded-circle border"
-                  style={{ width: 30, height: 30 }}
-                />
-              </div>
-            </div>
+            <OneCardUseAnywhere img="./Images/img7.png" Cloth="High neck jumper" price="1200.00" stars={<Stars />}
+              colorOption={<OptionColor />} btn="Add To Cart"/>
           </div>
 
           {/* Product 4 */}
           <div className="col-12 col-sm-6 col-md-4 col-lg-3">
-            <div className="card border-0 text-center h-100" style={{ maxWidth: "300px", margin: "0 auto" }}>
-              <img
-                src="./Images/img30.png"
-                alt="High neck jumper"
-                className="img-fluid rounded-2 mx-auto d-block"
-                style={{ maxHeight: "350px", width: "100%", objectFit: "cover" }}
-              />
-              <h6 className="card-title mt-3 fs-6 fw-bold">High neck jumper</h6>
-              <div className="d-flex justify-content-center gap-1">
-                {[...Array(5)].map((_, i) => (
-                  <span key={i}>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      height="35px"
-                      width="35px"
-                      viewBox="0 -960 960 960"
-                      fill="#F19E39"
-                    >
-                      <path d="m384-334 96-74 96 74-36-122 90-64H518l-38-124-38 124H330l90 64-36 122Z" />
-                    </svg>
-                  </span>
-                ))}
-              </div>
 
-              <p className="fw-bold mt-2">$225.00</p>
-
-              <div className="d-flex justify-content-center gap-2 mt-0">
-                <img
-                  src="https://demo-milano.myshopify.com/cdn/shop/files/13_1_5644aee9-7e1a-4296-baac-e448257d812c.webp?v=1742479315&width=50"
-                  alt="color1"
-                  className="rounded-circle border"
-                  style={{ width: 30, height: 30 }}
-                />
-                <img
-                  src="https://demo-milano.myshopify.com/cdn/shop/files/13_5_9c0bcbd4-c27f-4289-be76-af9c5c06aedf.webp?v=1742479315&width=50"
-                  alt="color2"
-                  className="rounded-circle border"
-                  style={{ width: 30, height: 30 }}
-                />
-              </div>
-            </div>
+            <OneCardUseAnywhere img="./Images/img30.png" Cloth="High neck jumper" price="1200.00" stars={<Stars />}
+              colorOption={<OptionColor />} btn="Add To Cart"/>
           </div>
 
 

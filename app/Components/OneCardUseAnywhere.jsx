@@ -4,8 +4,8 @@ function OneCardUseAnywhere(props) {
 
             {/* Card 1 */}
 
-            <div className="text-center">
-                <div className="card border-0 rounded-3" style={{ width: "17rem", height: '25rem', gap: "10px" }} >
+            <div className="text-center ">
+                <div className="card mx-auto border-0 rounded-3" style={{ width: "17rem", height: '25rem', gap: "10px" }} >
                     <img
                         src={props.img}
                         alt="Product 1"

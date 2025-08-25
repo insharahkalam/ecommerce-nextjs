@@ -32,7 +32,7 @@ function ProductTshirtSlider(){
             </div>
 
 <div className="container">
-    <p className="fw-bold fs-5 text-center mt-4">There are 8 results in Crop-Top </p>
+    <p className="fw-bold fs-5 text-center mt-4">There are 8 results in T-shirt </p>
 </div>
 
         </div>

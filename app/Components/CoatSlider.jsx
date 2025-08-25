@@ -1,9 +1,10 @@
-function ProductSweaterSlider(){
+function CoatSlider(){
     return(
         <div>
-         <div className="relative w-full h-[70vh] sm:h-[40vh] md:h-[40vh] lg:h-[50vh]">
+
+    <div className="relative w-full h-[70vh] sm:h-[40vh] md:h-[40vh] lg:h-[50vh]">
                 <img
-                    src="./Images/productSlider.png"
+                   src="./Images/productSlider.png"
                     alt="Slider"
                     className="w-full h-full object-cover"
                 />
@@ -13,16 +14,16 @@ function ProductSweaterSlider(){
                     <div className="text-start  max-w-xl">
                         {/* Subtitle */}
                         <p className="text-white mb-0 text-sm text-center  ">
-                            Home . Sweaters
+                            Home . Coats
                         </p>
 
                         {/* Title */}
                         <h2 className="text-white mt-2 mb-2 text-center text-2xl sm:text-3xl md:text-4xl lg:text-6xl mt-0 leading-tight ">
-                           Sweaters
+                           Coats
                         </h2>
 
                         <p className="text-white text-sm sm:text-base md:text-lg lg:text-lg">
-                     Cozy and chic for any season.
+                            Sleek and stylish.
                         </p>
 
 
@@ -31,10 +32,11 @@ function ProductSweaterSlider(){
             </div>
 
 <div className="container">
-    <p className="fw-bold fs-5 text-center mt-4">There are 8 results in Sweaters. </p>
+    <p className="fw-bold fs-5 text-center mt-4">There are 8 results in Coats </p>
 </div>
+
         </div>
     )
 }
 
-export default ProductSweaterSlider
+export default CoatSlider

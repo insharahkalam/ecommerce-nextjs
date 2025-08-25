@@ -18,25 +18,25 @@ export default function Section5() {
           {/* Product 1 */}
           <div className="col-12 col-sm-6 col-md-4 col-lg-3">
             <OneCardUseAnywhere img="./Images/img12.png" Cloth="Long belted sweater" price="250.00" stars={<Stars />}
-              colorOption={<OptionColor />} btn="Add To Cart"/>
+             sold="285 Sold"  colorOption={<OptionColor />} btn="Add To Cart"/>
           </div>
 
           {/* Product 2 */}
           <div className="col-12 col-sm-6 col-md-4 col-lg-3">
             <OneCardUseAnywhere img="./Images/img13.png" Cloth="Cropped denim shirt" price="250.00" stars={<Stars />}
-              colorOption={<OptionColor />} btn="Add To Cart"/>
+             sold="285 Sold"  colorOption={<OptionColor />} btn="Add To Cart"/>
           </div>
 
           {/* Product 3 */}
           <div className="col-12 col-sm-6 col-md-4 col-lg-3">
             <OneCardUseAnywhere img="./Images/img14.png" Cloth="Waistcoat with pockets" price="250.00" stars={<Stars />}
-              colorOption={<OptionColor />} btn="Add To Cart"/>
+              sold="285 Sold" colorOption={<OptionColor />} btn="Add To Cart"/>
           </div>
 
           {/* Product 4 */}
           <div className="col-12 col-sm-6 col-md-4 col-lg-3">
             <OneCardUseAnywhere img="./Images/img15.png" Cloth="Soft-touch vest sweater" price="250.00" stars={<Stars />}
-              colorOption={<OptionColor />} btn="Add To Cart"/>
+              sold="285 Sold" colorOption={<OptionColor />} btn="Add To Cart"/>
           </div>
         </div>
       </div>

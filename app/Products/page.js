@@ -1,11 +1,13 @@
-import BlazerSlider from "../Components/BlazerSlider"
-import BlazersProduct from "../Components/BlazersProduct"
+import BlazerSlider from "../Components/CoatSlider"
+import BlazersProduct from "../Components/CoatProducts"
 import CroptopProduct from "../Components/CroptopProduct"
 import ProductCroptopSlider from "../Components/ProductCroptopSlider"
 import ProductSweaterSlider from "../Components/ProductSweaterSlider"
 import ProductTshirtSlider from "../Components/ProductTshirtSlider"
 import SweaterProduct from "../Components/SweaterProduct"
 import TshirtProduct from "../Components/TshirtProduct"
+import HoodieSlider from "../Components/HoodieSlider"
+import HoodieProducts from "../Components/HoodieProducts"
 
 function Products() {
     return (
@@ -19,6 +21,8 @@ function Products() {
             <TshirtProduct />
             <BlazerSlider />
             <BlazersProduct />
+            <HoodieSlider />
+            <HoodieProducts />
 
         </div>
     )

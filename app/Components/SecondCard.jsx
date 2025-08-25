@@ -1,27 +1,26 @@
-import Link from "next/link";
-
 function SecondCard(props) {
     return (
         <div>
             {/* Card 1 */}
             <div className="text-center">
-
-                <Link className="text-decoration-none text-black" href="./Products">
-                    <img
-                        src={props.img}
-                        alt="Product 1"
-                        className="mx-auto rounded-2xl w-full max-w-[250px]"
+                <div className="card border-0 rounded-3" style={{ width: "13rem", height: '20rem', gap: "10px" }} >
+                 
+                        <img
+                            src={props.img}
+                            alt="Product 1"
+                            className="rounded-3" style={{ width: "17rem", height: '17rem' }}
                         />
-                </Link>
-                <h6 className="mt-3 fs-6 fw-bold">{props.Cloth}</h6>
-                <div>{props.stars}</div>
-                <h6 className="fs-6 fw-bold">{props.price}</h6>
-                <div>{props.colorOption}</div>
-                       
-            </div>
-        </div>
 
-    )
+                    <h6 className="mt-1 fs-6 fw-bold">{props.Cloth}</h6>
+                    <div>{props.stars}</div>
+                    <h6 className="fs-6 fw-bold">{props.price}</h6>
+                    <div>{props.colorOption}</div>
+
+                </div>
+            </div>
+            </div>
+
+            )
 }
 
-export default SecondCard
+            export default SecondCard

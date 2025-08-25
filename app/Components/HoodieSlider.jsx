@@ -1,7 +1,6 @@
-function BlazerSlider(){
+function HoodieSlider(){
     return(
         <div>
-
     <div className="relative w-full h-[70vh] sm:h-[40vh] md:h-[40vh] lg:h-[50vh]">
                 <img
                    src="./Images/productSlider.png"
@@ -14,12 +13,12 @@ function BlazerSlider(){
                     <div className="text-start  max-w-xl">
                         {/* Subtitle */}
                         <p className="text-white mb-0 text-sm text-center  ">
-                            Home . Blazers
+                            Home . Hoddie
                         </p>
 
                         {/* Title */}
                         <h2 className="text-white mt-2 mb-2 text-center text-2xl sm:text-3xl md:text-4xl lg:text-6xl mt-0 leading-tight ">
-                            Blazers
+                         Hoodie
                         </h2>
 
                         <p className="text-white text-sm sm:text-base md:text-lg lg:text-lg">
@@ -32,11 +31,11 @@ function BlazerSlider(){
             </div>
 
 <div className="container">
-    <p className="fw-bold fs-5 text-center mt-4">There are 8 results in Crop-Top </p>
+    <p className="fw-bold fs-5 text-center mt-4">There are 8 results in Hoodie </p>
 </div>
 
         </div>
     )
 }
 
-export default BlazerSlider
+export default HoodieSlider

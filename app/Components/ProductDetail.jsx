@@ -46,11 +46,7 @@ function ProductDetail({ img, name, price, sold }) {
                             Buy Now
                         </button>
                     </div>
-
-
-
                 </div>
-
             </div>
         </div>
     );

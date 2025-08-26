@@ -366,7 +366,7 @@ export const products = [
   {
     id: 41,
     img: "./Images/img8.png",
-    Cloth: "High neck jumper",
+    Cloth: "Crop Top and Flapper Trouser Best Quality Suit for Women and Girls",
     price: "Rs: 3432.00",
     sold: "340 Sold",
     stars: <Stars />,
@@ -375,7 +375,7 @@ export const products = [
   {
     id: 42,
     img: "./Images/img6.png",
-    Cloth: "Winter Coat",
+    Cloth: "Hot Selling Vintage Womens Lamb Wool coat Long Woven Style Casual Street Warmth Polyester Lining Loose Fitting High Quality.",
     price: "Rs: 523.00",
     sold: "68 Sold",
     stars: <Stars />,
@@ -384,7 +384,7 @@ export const products = [
   {
     id: 43,
     img: "./Images/img5.png",
-    Cloth: "Casual Shirt",
+    Cloth: "Relax Fit Oversized T-Shirt and Trouser Set for Women & Girls Summer Cotton Nightwear ",
     price: "Rs: 1200.00",
     sold: "98 Sold",
     stars: <Stars />,
@@ -393,7 +393,7 @@ export const products = [
   {
     id: 44,
     img: "./Images/img7.png",
-    Cloth: "Casual Coat",
+    Cloth: "Stylish High Quality Black Baseball Button coat For Women",
     price: "Rs: 1543.00",
     sold: "86 Sold",
     stars: <Stars />,
@@ -403,7 +403,7 @@ export const products = [
   {
     id: 45,
     img: "./Images/img12.png",
-    Cloth: "Long belted sweater",
+    Cloth: " Winter Bliss Warm & Fuzzy  Heart printed warm winter fleece co ord Set",
     price: "Rs: 765.00",
     sold: "25 Sold",
     stars: <Stars />,
@@ -413,7 +413,7 @@ export const products = [
   {
     id: 46,
     img: "./Images/img13.png",
-    Cloth: "Cropped denim shirt",
+    Cloth: "Dark Blue Cropped Denim Shirt with Chest Pocket and Raw Hem, Paired with High-Waist Wide-Leg Jeans",
     price: "Rs: 1800.00",
     sold: "92 Sold",
     stars: <Stars />,
@@ -423,7 +423,7 @@ export const products = [
   {
     id: 47,
     img: "./Images/img14.png",
-    Cloth: "Waistcoat with pockets",
+    Cloth: "Premium Black Coat for woman Traditional | Elegant Formal Wear",
     price: "Rs: 355.00",
     sold: "64 Sold",
     stars: <Stars />,
@@ -433,7 +433,7 @@ export const products = [
   {
     id: 48,
     img: "./Images/img15.png",
-    Cloth: "Soft-touch vest sweater",
+    Cloth: "Sleeveless taupe knit top with high neckline, paired with matching relaxed-fit bottoms",
     price: "Rs: 2522.00",
     sold: "35 Sold",
     stars: <Stars />,

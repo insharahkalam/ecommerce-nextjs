@@ -2,8 +2,9 @@
 import { useSearchParams } from "next/navigation";
 import { products } from "../ProductData/products";
 import ProductDetail from "../Components/ProductDetail";
+import { Suspense } from "react";
 
-function OpenEachProduct() {
+function OpenEachProductInner() {
   const searchParams = useSearchParams();
   const id = searchParams.get("id");
 
@@ -27,7 +28,13 @@ function OpenEachProduct() {
         stars={product.stars}
       />
     </div>
+
   );
 }
 
-export default OpenEachProduct;
+export default function OpenEachProduct(){
+  return  (<Suspense fallback={<div>Loading product...</div>}>
+      <OpenEachProductInner />
+    </Suspense>
+  );
+};

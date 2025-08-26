@@ -8,11 +8,10 @@ function Section4(){
         <div className="row g-4">
           {/* Card 1 */}
           <div className="col-12 col-md-6 col-lg-4">
-            <div className="card border-0 rounded h-100">
               <img
                 src="./Images/img9.png"
                 alt="Product 1"
-                className="rounded-4 img-fluid w-100"
+                className="rounded-4 abc img-fluid w-100"
                 style={{ height: "250px", objectFit: "cover" }}
               />
               <div className="text-center mt-2 p-2">
@@ -24,17 +23,15 @@ function Section4(){
                 <a className="text-black fw-bold" href="#">
                   Shop Collection
                 </a>
-              </div>
             </div>
           </div>
 
           {/* Card 2 */}
           <div className="col-12 col-md-6 col-lg-4">
-            <div className="card border-0 rounded h-100">
               <img
                 src="./Images/img10.png"
                 alt="Product 2"
-                className="rounded-4 img-fluid w-100"
+                className="rounded-4 abc img-fluid w-100"
                 style={{ height: "250px", objectFit: "cover" }}
               />
               <div className="text-center mt-2 p-2">
@@ -46,17 +43,15 @@ function Section4(){
                 <a className="text-black fw-bold" href="#">
                   Shop Collection
                 </a>
-              </div>
             </div>
           </div>
 
           {/* Card 3 */}
           <div className="col-12 col-md-6 col-lg-4">
-            <div className="card border-0 rounded h-100">
               <img
                 src="./Images/img11.png"
                 alt="Product 3"
-                className="rounded-4 img-fluid w-100"
+                className="rounded-4 abc img-fluid w-100"
                 style={{ height: "250px", objectFit: "cover" }}
               />
               <div className="text-center mt-2 p-2">
@@ -68,7 +63,6 @@ function Section4(){
                 <a className="text-black fw-bold" href="#">
                   Shop Collection
                 </a>
-              </div>
             </div>
           </div>
         </div>

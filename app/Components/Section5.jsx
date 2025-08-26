@@ -1,9 +1,8 @@
 import OneCardUseAnywhere from "./OneCardUseAnywhere";
-import OptionColor from "./OptionColor";
-import Stars from "./Stars";
-
+import { products } from "../ProductData/products";
 
 export default function Section5() {
+  const section5 = products.filter(item => item.category === "section5")
   return (
     <div>
       <div className="container mt-5 text-center">
@@ -11,35 +10,22 @@ export default function Section5() {
         <p className="lead">Unmatched design—superior performance and customer satisfaction in one.</p>
       </div>
 
-
-      <div className="container my-5">
-        <div className="row g-4">
-          
-          {/* Product 1 */}
-          <div className="col-12 col-sm-6 col-md-4 col-lg-3">
-            <OneCardUseAnywhere img="./Images/img12.png" Cloth="Long belted sweater" price="250.00" stars={<Stars />}
-             sold="285 Sold"  colorOption={<OptionColor />} btn="Add To Cart"/>
+<div className="container my-4">
+      <div className="row g-4">
+        {section5.map((item) => (
+          <div key={item.id} className="col-md-3 col-sm-6">
+            <OneCardUseAnywhere
+             id={item.id}
+              img={item.img}
+              Cloth={item.Cloth}
+              price={item.price}
+              sold={item.sold}
+              stars={item.stars}
+            />
           </div>
-
-          {/* Product 2 */}
-          <div className="col-12 col-sm-6 col-md-4 col-lg-3">
-            <OneCardUseAnywhere img="./Images/img13.png" Cloth="Cropped denim shirt" price="250.00" stars={<Stars />}
-             sold="285 Sold"  colorOption={<OptionColor />} btn="Add To Cart"/>
-          </div>
-
-          {/* Product 3 */}
-          <div className="col-12 col-sm-6 col-md-4 col-lg-3">
-            <OneCardUseAnywhere img="./Images/img14.png" Cloth="Waistcoat with pockets" price="250.00" stars={<Stars />}
-              sold="285 Sold" colorOption={<OptionColor />} btn="Add To Cart"/>
-          </div>
-
-          {/* Product 4 */}
-          <div className="col-12 col-sm-6 col-md-4 col-lg-3">
-            <OneCardUseAnywhere img="./Images/img15.png" Cloth="Soft-touch vest sweater" price="250.00" stars={<Stars />}
-              sold="285 Sold" colorOption={<OptionColor />} btn="Add To Cart"/>
-          </div>
-        </div>
+        ))}
       </div>
+    </div>
 
     </div>
   )

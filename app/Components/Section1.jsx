@@ -1,5 +1,4 @@
 import Link from "next/link";
-import OneCardUseAnywhere from "./OneCardUseAnywhere";
 import SecondCard from "./SecondCard";
 function Section1() {
   return (

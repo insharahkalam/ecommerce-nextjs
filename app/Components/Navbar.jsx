@@ -5,9 +5,9 @@ import Link from "next/link";
 function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false);
     return (
-        <div>
+        <div className="container-fluid shadow-sm">
             {/* Navbar */}
-            
+            <div>
             <nav className="container mx-auto flex justify-between items-center px-4 py-4 relative">
                 {/* Logo */}
                 <img
@@ -20,7 +20,7 @@ function Navbar() {
                 <ul className="hidden md:flex gap-6 text-black mb-0">
                     <li className="fw-bold"><Link className="text-decoration-none text-black" href="/">Home</Link></li>
                     <li className="fw-bold">About</li>
-                    <li className="fw-bold"><Link className="text-decoration-none text-black" href="./Products">Products</Link></li>
+                    <li className="fw-bold"><Link className="text-decoration-none text-black" href="./ShowAllProducts">Products</Link></li>
                     <li className="fw-bold">Blog</li>
                     <li className="fw-bold">Buy Theme</li>
                     <li className="fw-bold"><Link className="text-decoration-none text-black" href="./Signup">Signup</Link></li>
@@ -60,13 +60,14 @@ function Navbar() {
                     <ul className="absolute top-full left-0 w-full bg-white flex flex-col items-start p-4 gap-4 md:hidden shadow-md z-50">
                        <li className="fw-bold"><Link className="text-decoration-none text-black" href="/">Home</Link></li>
                     <li className="fw-bold">About</li>
-                    <li className="fw-bold"><Link className="text-decoration-none text-black" href="./Products">Products</Link></li>
+                    <li className="fw-bold"><Link className="text-decoration-none text-black" href="./ShowAllProducts">Products</Link></li>
                     <li className="fw-bold">Blog</li>
                     <li className="fw-bold">Buy Theme</li>
                     <li className="fw-bold"><Link className="text-decoration-none text-black" href="./Signup">Signup</Link></li>
                     </ul>
                 )}
             </nav>
+        </div>
         </div>
     )
 

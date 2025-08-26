@@ -9,7 +9,8 @@ import TshirtProduct from "../Components/TshirtProduct"
 import HoodieSlider from "../Components/HoodieSlider"
 import HoodieProducts from "../Components/HoodieProducts"
 
-function Products() {
+
+function ShowAllProducts() {
     return (
         <div>
 
@@ -28,4 +29,4 @@ function Products() {
     )
 }
 
-export default Products
+export default ShowAllProducts

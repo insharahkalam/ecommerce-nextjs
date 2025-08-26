@@ -1,10 +1,12 @@
+import Link from "next/link";
 function OneCardUseAnywhere(props) {
     return (
         <div>
 
             {/* Card 1 */}
-
+            
             <div className="text-center ">
+                 <Link className="text-decoration-none text-black" href={`/OpenEachProduct?id=${props.id}`}>
                 <div className="card mx-auto border-0 rounded-3" style={{ width: "17rem", height: '25rem', gap: "10px" }} >
                     <img
                         src={props.img}
@@ -19,6 +21,7 @@ function OneCardUseAnywhere(props) {
                         </div>
                     </div>
                 </div>
+                </Link>
             </div>
 
         </div>

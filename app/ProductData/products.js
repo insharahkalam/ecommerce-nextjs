@@ -3,7 +3,7 @@ export const products = [
   {
     id: 1,
     img: "https://img.drz.lazcdn.com/static/pk/p/23b2ad7f71f3008d0c0d2f151f8d4153.jpg_400x400q75.avif",
-    Cloth: "Unique Art Printed Crop Top Round Neck Half Sleeves Casual Cotton Crop Top T Shirt For Girls Women And Ladies",
+    Cloth: "Unique Art Printed Crop Top Round Neck Half Sleeves Casual Cotton Crop Top T Shirt For Girls Women",
     price: "Rs: 1200.00",
     sold: "199 Sold",
     stars: <Stars />,
@@ -39,7 +39,7 @@ export const products = [
   {
     id: 5,
     img: "https://img.drz.lazcdn.com/static/pk/p/24698677156d12399b2e03fceaf264ed.jpg_400x400q75.avif",
-    Cloth: "Pack Of 3 Summer Casual Plan Crop Top Round Neck Half Sleeves Casual Plan Cotton Crop T Shirt For Girls Women And Ladies",
+    Cloth: "Pack Of 3 Summer Casual Plan Crop Top Round Neck Half Sleeves Casual Plan Cotton Crop T Shirt For Girls",
     price: "Rs: 6200.00",
     sold: "435 Sold",
     stars: <Stars />,
@@ -104,7 +104,7 @@ export const products = [
   {
     id: 12,
     img: "https://img.drz.lazcdn.com/g/kf/S168ce51fc6d940dbb068cc577d88a806o.jpg_400x400q75.avif",
-    Cloth: "Womens Printed Hoodie with Kangaroo Pocket and Drawstring, Long Sleeve Winter Pullover, Export Quality",
+    Cloth: "Womens Printed Hoodie with Kangaroo Pocket and Drawstring, Long Sleeve Export Quality",
     price: "Rs: 5350.00",
     sold: "654 Sold",
     stars: <Stars />,
@@ -149,7 +149,7 @@ export const products = [
   {
     id: 17,
     img: "https://img.drz.lazcdn.com/static/pk/p/7306bbda512872f6d7d4d3ba01c2d081.jpg_400x400q75.avif",
-    Cloth: "Slim Fit High Neck for Ladies Women - Warm Turtle Neck for Girls - High Quality High Neck Comfortable Fit- Winter Stuff",
+    Cloth: "Slim Fit High Neck for Ladies Women Warm Turtle Neck for Girls High Quality Neck Comfortable",
     price: "Rs: 1144.00",
     sold: "120 Sold",
     stars: <Stars />,
@@ -158,7 +158,7 @@ export const products = [
   {
     id: 18,
     img: "https://img.drz.lazcdn.com/g/kf/S6d8f4a0545d2461694d892c72c2a5fb00.jpg_400x400q75.avif",
-    Cloth: "This Primark cardigan features a soft lavender and white butterfly pattern, button closure, ribbed trims, and a cozy knit design.",
+    Cloth: "This Primark cardigan features a soft lavender and white button closure, and a cozy knit design.",
     price: "Rs: 3400.00",
     sold: "230 Sold",
     stars: <Stars />,
@@ -213,7 +213,7 @@ export const products = [
   {
     id: 24,
     img: "https://img.drz.lazcdn.com/static/pk/p/ca73de0c2fdd05748918c5cc65e99bcb.jpg_400x400q75.avif",
-    Cloth: "Women&appos;s High Neck Knitted Sweater Pullover, Long Sleeve Autumn Winter Knitwear for Comfortable Fit",
+    Cloth: "Women High Neck Knitted Sweater, Long Sleeve Winter Knitwear for Comfortable Fit",
     price: "Rs: 2200.00",
     sold: "350 Sold",
     stars: <Stars />,
@@ -303,7 +303,7 @@ export const products = [
   {
     id: 34,
     img: "https://img.drz.lazcdn.com/g/kf/S0dd52ee368d247068ec0233efa9548c5C.jpg_400x400q75.avif",
-    Cloth: "New Collection Wool Coat with Long Sleeves and Stylish Kaaj Buttons Warmer for Winters New Arrivals For Women",
+    Cloth: "New Collection Wool Coat with Long Sleeves and Stylish Kaaj Buttons Warmer for Winters",
     price: "Rs: 1265.00",
     sold: "242 Sold",
     stars: <Stars />,
@@ -375,7 +375,7 @@ export const products = [
   {
     id: 42,
     img: "./Images/img6.png",
-    Cloth: "Hot Selling Vintage Womens Lamb Wool coat Long Woven Style Casual Street Warmth Polyester Lining Loose Fitting High Quality.",
+    Cloth: "Hot Selling Vintage Womens Lamb Wool coat Long Woven Style Casual Street Fitting High Quality.",
     price: "Rs: 523.00",
     sold: "68 Sold",
     stars: <Stars />,

@@ -26,15 +26,16 @@ function OpenEachProductInner() {
         price={product.price}
         sold={product.sold}
         stars={product.stars}
+        relatedImg={product.relatedImg}
       />
     </div>
 
   );
 }
 
-export default function OpenEachProduct(){
-  return  (<Suspense fallback={<div>Loading product...</div>}>
-      <OpenEachProductInner />
-    </Suspense>
+export default function OpenEachProduct() {
+  return (<Suspense fallback={<div>Loading product...</div>}>
+    <OpenEachProductInner />
+  </Suspense>
   );
 };

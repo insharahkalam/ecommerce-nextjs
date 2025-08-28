@@ -7,7 +7,14 @@ export const products = [
     price: "Rs: 1200.00",
     sold: "199 Sold",
     stars: <Stars />,
-    category: "tshirt"
+    category: "tshirt",
+    relatedImg: [
+      "https://img.drz.lazcdn.com/static/pk/p/23b2ad7f71f3008d0c0d2f151f8d4153.jpg_400x400q75.avif",
+      "https://img.drz.lazcdn.com/static/pk/p/8f7c48ddf7c1e2a27c3fa0bde6f42c8f.jpg_720x720q80.jpg_.webp",
+      "https://img.drz.lazcdn.com/static/pk/p/2040c2d8c5e048044d4203c61904989b.jpg_720x720q80.jpg_.webp",
+      "https://img.drz.lazcdn.com/static/pk/p/6d30fedce6d4361344efba4ae950fa45.jpg_720x720q80.jpg_.webp"
+    ]
+
   },
   {
     id: 2,
@@ -16,7 +23,14 @@ export const products = [
     price: "Rs: 3200.00",
     sold: "454 Sold",
     stars: <Stars />,
-    category: "tshirt"
+    category: "tshirt",
+    relatedImg: [
+      "https://img.drz.lazcdn.com/static/pk/p/d92e66074639917fe9df99ce592333f6.jpg_400x400q75.avif",
+      "https://img.drz.lazcdn.com/static/pk/p/d5769d47028fe07aeed7dc4b66149062.jpg_720x720q80.jpg_.webp",
+      "https://img.drz.lazcdn.com/static/pk/p/beeb35e9f6e52aff9f8035b28b3496bf.jpg_720x720q80.jpg_.webp",
+      "https://img.drz.lazcdn.com/static/pk/p/0875c32469f66e20c2bd2131d877436b.jpg_720x720q80.jpg_.webp"
+    ]
+
   },
   {
     id: 3,
@@ -25,52 +39,88 @@ export const products = [
     price: "Rs: 1100.00",
     sold: "310 Sold",
     stars: <Stars />,
-    category: "tshirt"
+    category: "tshirt",
+    relatedImg: [
+      "https://img.drz.lazcdn.com/static/pk/p/d8c0f8424c04489785c5f3fd0e793654.jpg_400x400q75.avif",
+      "https://img.drz.lazcdn.com/static/pk/p/994b5ec3125e1dd090f25900bd39c134.jpg_720x720q80.jpg_.webp",
+      "https://img.drz.lazcdn.com/static/pk/p/ba6b7151b9ead668bb760643ab78e801.jpg_720x720q80.jpg_.webp",
+      "https://img.drz.lazcdn.com/static/pk/p/be0a3662a02945d4aa0b3e34fd535741.jpg_720x720q80.jpg_.webp"
+    ]
   },
   {
     id: 4,
-    img: " https://img.drz.lazcdn.com/static/pk/p/74dbe2630c5d4f9482246130d74c4c3e.jpg_400x400q75.avif",
+    img: "https://img.drz.lazcdn.com/static/pk/p/74dbe2630c5d4f9482246130d74c4c3e.jpg_400x400q75.avif",
     Cloth: "Summer Soft & Comfy Casual Suit Crop Top With Flapper Trouser Combo For Women And Girls",
     price: "Rs: 3000.00",
     sold: "273 Sold",
     stars: <Stars />,
-    category: "tshirt"
+    category: "tshirt",
+    relatedImg: [
+      "https://img.drz.lazcdn.com/static/pk/p/74dbe2630c5d4f9482246130d74c4c3e.jpg_400x400q75.avif",
+      "https://img.drz.lazcdn.com/static/pk/p/0445daa04b1c9cd8f5661834d09ec28f.jpg_720x720q80.jpg_.webp",
+      "https://img.drz.lazcdn.com/static/pk/p/04f19ba084faada9bfb6f333405e62ee.jpg_720x720q80.jpg_.webp",
+      "https://img.drz.lazcdn.com/static/pk/p/599af5a78c429fa9c3b2c4bc19a2d9c9.jpg_720x720q80.jpg_.webp"
+    ]
   },
   {
     id: 5,
-    img: "https://img.drz.lazcdn.com/static/pk/p/24698677156d12399b2e03fceaf264ed.jpg_400x400q75.avif",
-    Cloth: "Pack Of 3 Summer Casual Plan Crop Top Round Neck Half Sleeves Casual Plan Cotton Crop T Shirt For Girls",
+    img: "https://img.drz.lazcdn.com/static/pk/p/858110ee3b8c7f8342075a189f0f70fd.jpg_400x400q75.avif",
+    Cloth: "Pack of 2 Crop Tops | Multiple Color Combinations | Casual & Comfortable Wear for Girls & Ladies",
     price: "Rs: 6200.00",
     sold: "435 Sold",
     stars: <Stars />,
-    category: "tshirt"
+    category: "tshirt",
+    relatedImg: [
+      "https://img.drz.lazcdn.com/static/pk/p/858110ee3b8c7f8342075a189f0f70fd.jpg_400x400q75.avif",
+      "https://img.drz.lazcdn.com/static/pk/p/0fb95da7a1aa51b34bebc1d343245492.jpg_720x720q80.jpg_.webp",
+      "https://img.drz.lazcdn.com/static/pk/p/a52a7de75aee148edb8895a3bb4028fe.jpg_720x720q80.jpg_.webp",
+      "https://img.drz.lazcdn.com/static/pk/p/3dfa0b9cbb7bbce85ff11bb3bc3382af.jpg_720x720q80.jpg_.webp"
+    ]
   },
   {
     id: 6,
-    img: "https://img.drz.lazcdn.com/static/pk/p/b5de6c31bc7c3e8edd4ddfd958469818.jpg_400x400q75.avif",
+    img: "https://img.drz.lazcdn.com/static/pk/p/02b1cacdada1ad415ca0130f832f1833.jpg_400x400q75.avif",
     Cloth: "Plain Crop Tops Summer Round Neck Half Sleeves Gym Casual Printed Crop Tops For Girls Women And Ladies",
     price: "Rs: 1250.00",
     sold: "687 Sold",
     stars: <Stars />,
-    category: "tshirt"
+    category: "tshirt",
+    relatedImg: [
+      "https://img.drz.lazcdn.com/static/pk/p/02b1cacdada1ad415ca0130f832f1833.jpg_400x400q75.avif",
+      "https://img.drz.lazcdn.com/static/pk/p/7a3331cf221c2788b42f17a12d66646f.jpg_720x720q80.jpg_.webp",
+      "https://img.drz.lazcdn.com/static/pk/p/2642697174a3d47519f4710fcc245e7a.jpg_720x720q80.jpg_.webp",
+      "https://img.drz.lazcdn.com/static/pk/p/ecc9aee115ab37b86f533aa5e5f141f8.jpg_720x720q80.jpg_.webp"
+    ]
   },
   {
     id: 7,
-    img: "https://img.drz.lazcdn.com/static/pk/p/a4b10a17056513e5ef4bdfc555cc78d1.jpg_400x400q75.avif",
+    img: "https://img.drz.lazcdn.com/g/kf/S4216ff70f5904ed89bb1b7edcdad8e9fW.jpg_400x400q75.avif",
     Cloth: "Summer High Quality White Printed Crop top and Black Flapper Suit",
     price: "Rs: 1245.00",
     sold: "256 Sold",
     stars: <Stars />,
-    category: "tshirt"
+    category: "tshirt",
+    relatedImg: [
+      "https://img.drz.lazcdn.com/g/kf/S4216ff70f5904ed89bb1b7edcdad8e9fW.jpg_400x400q75.avif",
+      "https://img.drz.lazcdn.com/g/kf/S682720e9b8094c7d8fb39647b69df4c8l.jpg_720x720q80.jpg_.webp",
+      "https://img.drz.lazcdn.com/g/kf/Sf20f467b22894cf995f863e342aaf04cN.jpg_720x720q80.jpg_.webp",
+      "https://img.drz.lazcdn.com/g/kf/Sea4b18725edf4ff9bde2873aa8a737daq.jpg_720x720q80.jpg_.webp"
+    ]
   },
   {
     id: 8,
-    img: "https://img.drz.lazcdn.com/static/pk/p/96fafafb92787e8046e4697b389fad0a.jpg_400x400q75.avif",
+    img: "https://img.drz.lazcdn.com/static/pk/p/a4b10a17056513e5ef4bdfc555cc78d1.jpg_400x400q75.avif",
     Cloth: "New Panda Printed Crop Top Round Neck Half Sleeves Casual Cotton",
     price: "Rs: 6200.00",
     sold: "154 Sold",
     stars: <Stars />,
-    category: "tshirt"
+    category: "tshirt",
+    relatedImg: [
+      "https://img.drz.lazcdn.com/static/pk/p/a4b10a17056513e5ef4bdfc555cc78d1.jpg_400x400q75.avif",
+      "https://img.drz.lazcdn.com/static/pk/p/575bde10b22e7044a4d2d7d1849b58a5.jpg_720x720q80.jpg_.webp",
+      "https://img.drz.lazcdn.com/static/pk/p/7a196ff38055dd1e9833f8b49e8c10c0.jpg_720x720q80.jpg_.webp",
+      "https://img.drz.lazcdn.com/static/pk/p/11e174d454aeb41e1b3d128483d5cfd1.jpg_720x720q80.jpg_.webp"
+    ]
   },
 
   {
@@ -80,7 +130,13 @@ export const products = [
     price: "Rs: 1760.00",
     sold: "973 Sold",
     stars: <Stars />,
-    category: "hoodie"
+    category: "hoodie",
+    relatedImg: [
+      "https://img.drz.lazcdn.com/static/pk/p/fc64a02bcc53daa75416830e449a2f82.jpg_400x400q75.avif",
+      "",
+      "",
+      ""
+    ]
   },
   {
     id: 10,
@@ -89,7 +145,13 @@ export const products = [
     price: "Rs: 1580.00",
     sold: "659 Sold",
     stars: <Stars />,
-    category: "hoodie"
+    category: "hoodie",
+    relatedImg: [
+      "https://img.drz.lazcdn.com/static/pk/p/de27e1cd61999a157d2006d6e6a96033.png_400x400q75.avif",
+      "",
+      "",
+      ""
+    ]
   },
 
   {
@@ -99,16 +161,28 @@ export const products = [
     price: "Rs: 4520.00",
     sold: "234 Sold",
     stars: <Stars />,
-    category: "hoodie"
+    category: "hoodie",
+    relatedImg: [
+      "https://img.drz.lazcdn.com/static/pk/p/0edee8bac8aeabfa439ccf0d59bec71f.jpg_400x400q75.avif",
+      "",
+      "",
+      ""
+    ]
   },
   {
     id: 12,
-    img: "https://img.drz.lazcdn.com/g/kf/S168ce51fc6d940dbb068cc577d88a806o.jpg_400x400q75.avif",
+    img: "https://img.drz.lazcdn.com/static/pk/p/a7d73032c51e1c2cfa8211ab64f4602f.jpg_720x720q80.jpg_.webp",
     Cloth: "Womens Printed Hoodie with Kangaroo Pocket and Drawstring, Long Sleeve Export Quality",
     price: "Rs: 5350.00",
     sold: "654 Sold",
     stars: <Stars />,
-    category: "hoodie"
+    category: "hoodie",
+    relatedImg: [
+      "https://img.drz.lazcdn.com/static/pk/p/a7d73032c51e1c2cfa8211ab64f4602f.jpg_720x720q80.jpg_.webp",
+      "https://img.drz.lazcdn.com/static/pk/p/d8dd3db5c9a2c06e6678b0ceadeaba65.jpg_720x720q80.jpg_.webp",
+      "https://img.drz.lazcdn.com/static/pk/p/eb33947fe58054e0ea13fb91bb072ddf.jpg_720x720q80.jpg_.webp",
+      "https://img.drz.lazcdn.com/static/pk/p/5122b1878f023e44bc6e9aa87a4702d4.jpg_720x720q80.jpg_.webp"
+    ]
   },
   {
     id: 13,
@@ -117,16 +191,28 @@ export const products = [
     price: "Rs: 2200.00",
     sold: "117 Sold",
     stars: <Stars />,
-    category: "hoodie"
+    category: "hoodie",
+    relatedImg: [
+      "https://img.drz.lazcdn.com/static/pk/p/cd7f502fcca3e1e1bf6b5062aac21d77.jpg_400x400q75.avif",
+      "https://img.drz.lazcdn.com/static/pk/p/84944c72161394298c9b8e2778c97d04.jpg_720x720q80.jpg_.webp",
+      "https://img.drz.lazcdn.com/static/pk/p/38fdeba3481d9eadcea4a18c02bf6a89.jpg_720x720q80.jpg_.webp",
+      "https://img.drz.lazcdn.com/static/pk/p/cf518bc2265fba7e20548187442c6200.jpg_720x720q80.jpg_.webp"
+    ]
   },
   {
     id: 14,
-    img: "https://img.drz.lazcdn.com/g/kf/Sad8002e1dc3f410193d800252cd3bebap.jpg_400x400q75.avif",
+    img: "https://img.drz.lazcdn.com/static/pk/p/0eda652c2126e073f4f2ee2b715db4ec.jpg_720x720q80.jpg_.webp",
     Cloth: "Los Angeles California Fleece Full Sleeves Pull Over Sweatshirt For Women",
     price: "Rs: 2300.00",
     sold: "334 Sold",
     stars: <Stars />,
-    category: "hoodie"
+    category: "hoodie",
+    relatedImg: [
+      "https://img.drz.lazcdn.com/static/pk/p/0eda652c2126e073f4f2ee2b715db4ec.jpg_720x720q80.jpg_.webp",
+      "https://img.drz.lazcdn.com/static/pk/p/1360926f85c0c878d50519dfdbb0f501.jpg_720x720q80.jpg_.webp",
+      "https://img.drz.lazcdn.com/static/pk/p/f85f8921920561eb6228c2d6d19054cf.jpg_720x720q80.jpg_.webp",
+      "https://img.drz.lazcdn.com/static/pk/p/be422f4dadcb397feaa47d000950faa4.jpg_720x720q80.jpg_.webp"
+    ]
   },
   {
     id: 15,
@@ -135,16 +221,28 @@ export const products = [
     price: "Rs: 9900.00",
     sold: "430 Sold",
     stars: <Stars />,
-    category: "hoodie"
+    category: "hoodie",
+    relatedImg: [
+      "https://img.drz.lazcdn.com/static/pk/p/30c7f5267114a9723e01cd16280652e8.jpg_400x400q75.avif",
+      "https://img.drz.lazcdn.com/static/pk/p/2c91c096a2bedb199ae4dc098d64cd6e.jpg_720x720q80.jpg_.webp",
+      "https://img.drz.lazcdn.com/static/pk/p/c47834e72ba0ffbdb7b88ebb57d00c72.jpg_720x720q80.jpg_.webp",
+      "https://img.drz.lazcdn.com/static/pk/p/26a939aa84023724e702ff5ce28607d8.jpg_720x720q80.jpg_.webp"
+    ]
   },
   {
     id: 16,
-    img: "https://img.drz.lazcdn.com/static/pk/p/41d309a986333fe7962c44096232fffc.jpg_400x400q75.avif",
+    img: "https://img.drz.lazcdn.com/static/pk/p/ec6e407bfc861c9e3776548f395404d5.jpg_720x720q80.jpg_.webp",
     Cloth: "Black Stylish Zipper Hoodies For Girls & Women - Comfy & Cozy Hoodies For Girls",
     price: "Rs: 1199.00",
     sold: "240 Sold",
     stars: <Stars />,
-    category: "hoodie"
+    category: "hoodie",
+    relatedImg: [
+      "https://img.drz.lazcdn.com/static/pk/p/ec6e407bfc861c9e3776548f395404d5.jpg_720x720q80.jpg_.webp",
+      "https://img.drz.lazcdn.com/static/pk/p/1e71fec401d160b97627a48c7fecd4c6.jpg_720x720q80.jpg_.webp",
+      "https://img.drz.lazcdn.com/static/pk/p/2a9cde92344682537246aee598f5d73b.jpg_720x720q80.jpg_.webp",
+      "https://img.drz.lazcdn.com/static/pk/p/43ab6f88bd599acb248c63cbe5f9872c.jpg_720x720q80.jpg_.webp"
+    ]
   },
   {
     id: 17,
@@ -399,7 +497,7 @@ export const products = [
     stars: <Stars />,
     category: "section3"
   },
-  
+
   {
     id: 45,
     img: "./Images/img12.png",
@@ -409,7 +507,7 @@ export const products = [
     stars: <Stars />,
     category: "section5"
   },
-  
+
   {
     id: 46,
     img: "./Images/img13.png",
@@ -419,7 +517,7 @@ export const products = [
     stars: <Stars />,
     category: "section5"
   },
-  
+
   {
     id: 47,
     img: "./Images/img14.png",
@@ -429,7 +527,7 @@ export const products = [
     stars: <Stars />,
     category: "section5"
   },
-  
+
   {
     id: 48,
     img: "./Images/img15.png",

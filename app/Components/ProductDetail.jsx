@@ -1,11 +1,14 @@
-function ProductDetail({ img, name, price, sold }) {
+import { useState } from "react";
+
+function ProductDetail({ img, name, price, sold, relatedImg }) {
+    const [image, setImg] = useState(img)
     return (
         <div className="container container1  w-75 rounded-5 mt-5 pt-5 pb-4">
             <div className="row justify-content-center">
                 {/* Left side - Image */}
                 <div className="col-lg-5 col-md-5 text-center mb-4 mb-md-0">
                     <img
-                        src={img}
+                        src={image}
                         alt={name}
                         style={{
                             width: "100%",
@@ -16,6 +19,14 @@ function ProductDetail({ img, name, price, sold }) {
                             boxShadow: "0px 0px 5px grey"
                         }}
                     />
+                    <div className="d-flex mt-3 gap-2">
+                        {relatedImg?.map((smallImg, index) => (
+                            <img key={index} src={smallImg}  alt="" className="cursor-pointer smImg border-1 rounded-3" 
+                                onClick={() => { setImg(smallImg) }}
+                            />
+                        )
+                        )}
+                    </div>
                 </div>
 
                 {/* Center - Details */}
@@ -43,7 +54,7 @@ function ProductDetail({ img, name, price, sold }) {
                             Add to Cart
                         </button>
                         <button className="btn btn-danger w-100 py-2 fw-semibold">
-                            Buy Now
+                            Add to wishlist
                         </button>
                     </div>
                 </div>

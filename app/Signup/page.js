@@ -1,4 +1,5 @@
 // src/app/signup/page.js
+import { supabase } from '@/lib/supabaseClient'
 import Link from "next/link";
 
  function Signup() {
